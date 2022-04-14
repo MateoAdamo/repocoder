@@ -4,51 +4,84 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Promociones</title>
-	<link rel="stylesheet" type="text/css" href="../css/style.css"> 
+	<link rel="stylesheet" type="text/css" href="css/css.css">
+	<!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> 
+
 </head>
-<body>
-	<nav class="botonera">
-		  <a href="index.html">	
-		 <img src="../img/descarga.jpg" alt="logo torque center">
-		</a>
-		<ul>
-			<li><a href="../index.html"></a></li>
-			<li><a href="nosotros.html">Nosotros</a></li>
-			<li><a href="promociones.html">Promociones</a><li>
-			<li><a href="#Contacto">Contacto</a></li>
-	                <li><a href="repuestos.html" target="_blank">
-		 	Nuestros Repuestos</a></li>	
-                </ul>
-	</nav>
+ <body>
+	<nav class= "navbar navbar-expand-lg navbar-light bg-light"> 
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">
+      <img src="img/descarga.jpg" alt="" class="w-200">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <main>
+      <ol class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+      <li><a href="index.html"></a></li>
+  
+      <li class="nav-item">
+      <a class="nav-link active" aria-current="page"href="./pages/nosotros.html">Nosotros</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="#Contacto">Contacto</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="./pages/promociones.html">Promociones</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link dropdown-toggle " href="./pages/repuestos.html" target="_blank">
+      Nuestros Repuestos</a>
+      </li> 
+     </ol>
+    </main>
+</nav>
+    <!-- end nav-->
 	
 	<main>
-		<section class="section">
+		<section class="textCenter">
 			<h1>Promociones Unicas</h1>
 	<header class="header">
 		<img src="../img/piston.jpg" alt="pistones de todas las calidades">
 	</header>
-		<article class="tabla">
-			<table border="3px" cellpadding="5px" cellpadding="5px">
-				<tr>
-					<th>Repuesto</th>
-					<th>Marca</th>
-					<th>Precio</th>
-				</tr>
-				<tr>
-					<td>Piston japones</td>
-					<td>Top</td>
-					<td>$4600</td>
-				</tr>
-				<tr>
-					<td>Piston Taiwan</td>
-					<td>DLLD</td>
-					<td>$1700</td>
-				</tr>
-				    <td>Piston Nacional</td>
-				    <td>RR</td>
-				    <td>$1300</td>
-				 <tr></tr>   
-			</table>
+		<article>
+			<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Procedencia</th>
+      <th scope="col">Marca</th>
+      <th scope="col">Precio</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Piston Japones </td>
+      <td>Top</td>
+      <td>$2700</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Piston Taiwan</td>
+      <td>DLLD</td>
+      <td>$1700</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td >Piston Indu</td>
+      <td>Jailandun</td>
+      <td>$1300</td>
+    </tr>
+  </tbody>
+</table>
 		</article>	
 				
 		</section>
@@ -59,7 +92,7 @@
         <p>Nuestro intagram</p>
         <img class="header" src="../img/instagram.jpg">
         <p>Nuestro Facebook</p>
-        <img class="header" src="../img/facebook.jpg"> 
+        <img class="header" src="../img/facebook.png"> 
     </footer>
 </body>
 </html>

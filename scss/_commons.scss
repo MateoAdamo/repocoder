@@ -1,0 +1,42 @@
+.btn-more{
+  width: 100px;
+  height: 30px;
+  background-color: linear-gradient(to bottom, blue);
+  border: none;
+  display: flex;
+  justify-content: center;
+  &:hover{
+         color: darkviolet;
+         cursor: pointer;
+  }
+}
+
+.btn-rounded{
+  @extend .btn-more;
+  border-radius: 15px;
+}
+
+@mixin texto($font-size,$line-height,$color){
+        font-size: $font-size;
+        line-height: $line-height;
+        color:$color;
+        padding: 4px 20px
+}
+
+h1{
+  @include texto(2rem,1.5rem,darkblue);
+}
+
+@mixin flex($justify,$align){
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+}
+
+
+
+.box{
+      @include flex(center, center);
+}
+
+

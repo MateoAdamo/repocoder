@@ -1,5 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,400;1,500&display=swap");
+.btn-more, .btn-rounded {
+  width: 100px;
+  height: 30px;
+  background-color: linear-gradient(to bottom, blue);
+  border: none;
+  display: flex;
+  justify-content: center; }
+  .btn-more:hover, .btn-rounded:hover {
+    color: darkviolet;
+    cursor: pointer; }
+
+.btn-rounded {
+  border-radius: 15px; }
+
+h1 {
+  font-size: 2rem;
+  line-height: 1.5rem;
+  color: darkblue;
+  padding: 4px 20px; }
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
 header {
   margin-left: 20px;
   height: -20px;
   padding: 5px;
   margin-top: 900px; }
+
+h1 {
+  font-size: 4rem;
+  font-weight: 300;
+  line-height: 5rem; }
+
+h2 {
+  font-size: 3rem;
+  font-weight: 150; }
+
+h3 {
+  font-size: 3rem; }
+
+h6 {
+  font-size: 2rem; }
+
+h4 {
+  width: 5%;
+  margin-left: 700px;
+  size: 10px 20px; }
+
+p {
+  font-size: 3rem; }
