@@ -1,0 +1,4 @@
+Mi proyecto fue cambiando a lo largo del curso pero la idea fue la misma.
+Una pagina con claridad y buen aspecto a la vista del ingresado. Mi primera pagina fue el index, el cual lo modifique con bootsrap y un poco de css.
+Despues las pages, fueron creadas con mis ideas desde un principio pero modificandose con el paso del proyecto.
+Se que falta todavia mejorar el proyecto y cosas que no me quedaron claras pero asi es como quedaron los avances que fui aplicando.
